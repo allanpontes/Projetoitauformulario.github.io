@@ -7,8 +7,12 @@
     <script type="text/javascript" src="Validacao.js"></script>
     <title>Formulário Tech Itaú</title>
     <link rel="stylesheet" href="style.css" />
+    <script>
+        alert("Boas Vindas! Preencha o Formulário a seguir")
+    </script>
 </head>
 <body>
+  <img src="Imagens/itau-logo-1-1.png" alt="">
     <form action="" class="formulario">
   
         <h1 class="formulario__titulo">Formulário de Cadastro Pessoal</h1>
@@ -54,7 +58,7 @@
           title="Somente números"
           class="formulario__input"
         />
-        <label for="cep" class="formulario__label"><b>CEP</b> <sup>*</sup></label>
+        <label for="cep" class="formulario__label"><b>CEP</b></label>
         <input
           id="cep"
           type="text"
@@ -170,10 +174,9 @@
           placeholder="(__) ____-____)"
           class="formulario__input"
         />
-  
-        <label for="selecionaSexo" class="formulario__label"
-          ><b></b></label
-        >
+
+
+        <label for="Sexo" class="formulario__label"><b>Sexo</b><sup>*</sup></label>
         <select id="selecionaSexo" name="listaselecionaSexos" class="formulario__input">
           <option>F = Feminino</option>
           <option>M = Masculino</option>
@@ -184,7 +187,7 @@
         <button id="submit" onclick="popup()" class="formulario__submit">Enviar dados</button>
         <br><br>
         <footer>
-            2021- Allan Andrews Nunes de Pontes - Gama Academy - Itaú
+           &copy; 2021- Allan Andrews Nunes de Pontes - Gama Academy - Itaú
             </footer>
         
       </form>

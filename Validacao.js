@@ -42,3 +42,8 @@ function valida(){
     alert('FORMULÁRIO ENVIADO COM SUCESSO!!!');
     return true;
 }
+
+function popup() {
+    alert("Dados Enviados com sucesso")
+}
+
