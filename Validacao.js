@@ -45,5 +45,7 @@ function valida(){
 
 function popup() {
     alert("Dados Enviados com sucesso")
+        
+
 }
 
